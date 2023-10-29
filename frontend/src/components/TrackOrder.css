@@ -1,0 +1,94 @@
+/* TrackOrder.css */
+body {
+    margin: 0;
+  }
+  
+  #Track-Order .center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  #Track-Order .search-container {
+    height: 50vh;
+    text-align: center;
+    margin: 100px, 100px;
+  }
+  
+  #Track-Order input {
+    padding: 10px; /* Adjust the padding to control the height */
+    font-size: 16px; /* Adjust the font size to control the text size */
+    width: 400px; /* Adjust the width to control the overall size */
+    border: 2px solid #5bc8f3;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-top: 200px;
+  }
+  
+  #Track-Order button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #Track-Order button:hover {
+    background-color: #0056b3;
+  }
+
+  .popup {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, rgb(109, 160, 204), #86c8e2);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 6000px; /* Adjust the width as needed */
+    max-width: 90%; /* Set a maximum width if you want it to be responsive */
+  }
+
+  #Track-Order {
+    position: relative; /* Ensure the relative positioning for absolute children */
+  }
+  /* TrackOrder.css */
+
+.spacer {
+  height: 800px; /* Adjust the height as needed */
+}
+.delivery-person-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery-person-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.deliveryimage{
+  width: 1000px;
+  height: 150px;
+  border-radius: 50%;
+  overflow:hidden;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+  
+  /* .popup-content {
+    /* Add any styles you need for the popup content */
+  
+  
+  /* Add more styles as needed */
+  
+  

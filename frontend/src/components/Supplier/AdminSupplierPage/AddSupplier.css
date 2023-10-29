@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap");
+
+
+
+#AddSupplier *{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Popins" ,sans-serif;
+    
+    
+}
+
+#AddSupplier .error-message {
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0px; /* Add margin to separate from input fields */
+  }
+
+#AddSupplier .home_content {
+    position: absolute;  
+    left: center;
+    width: max-content;
+}
+
+#AddSupplier .home_content .text{
+    font-size: 25px;
+    font-weight: 500;
+    color:#1d1b31 ;
+    width: max-content;
+}
+#AddSupplier .home_content .text1{
+    font-size: 25px;
+    font-weight: 500;
+    color:#1d1b31 ;
+    margin-left: 570px;
+    width: max-content;
+    
+    
+}
+#AddSupplier .form-control {
+    border: 1px solid #073dff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    background: #ffffff;
+    color: #2e323c;
+    box-shadow:#007ae1;
+    margin: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#AddSupplier .form-scroll-container {
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    max-height: 80vh; /* Set a maximum height for the scrollable container */
+    padding-right: 20px; /* Add some right padding to prevent content from being obscured by scrollbar */
+  }
+
+
+
+
+/* form */
+
+
+#AddSupplier .container {
+    margin-left: 155px;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem rgba(147, 142, 142, 0.353);
+    border-color: #b3a8a8db;
+    background-color: #ffffff82;
+    border-radius: 15px;
+    padding: 30px;
+    max-width:max-content;
+    
+    
+    
+   
+}

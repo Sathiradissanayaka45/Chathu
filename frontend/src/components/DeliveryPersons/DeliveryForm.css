@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap");
+
+/* Container Styles */
+
+  
+#DeliveryForm .home_content {
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(64, 12, 185, 0.2);
+  }
+  
+  #DeliveryForm .text {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #DeliveryForm .text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2001ac;
+  }
+  
+  /* Form Styles */
+  #DeliveryForm .container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(245, 245, 245, 0.993);
+  }
+  
+  #DeliveryForm .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input Styles */
+  #DeliveryForm .form-control {
+    border: 2px solid #2d8dee;
+    border-radius: 10px;
+  }
+  
+  /* Button Styles */
+  #DeliveryForm .btn-primary {
+    background-color: #000305;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  #DeliveryForm .btn-primary:hover {
+    background-color: #000000;
+  }
+  
+  /* Additional Styles */
+  #DeliveryForm .mb-5 {
+    margin-bottom: 1.5rem !important;
+  }
+  #DeliveryForm .bg-lightrounded {
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    #DeliveryForm {
+      padding: 20px;
+    }
+  }
+
+  #DeliveryForm .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  /* Style for input fields with errors */
+  #DeliveryForm .has-error {
+    border: 2px solid red !important;
+    border-color: #dc3545
+  }
+
+  #DeliveryForm .password-conditions {
+    background: linear-gradient(to right, #86d6db, #7bd9fe); /* Gradient background */
+    color: #fff; /* White text color */
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    font-size: 16px;
+  }
+  
+  #DeliveryForm .password-condition {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #DeliveryForm .condition-icon {
+    margin-right: 10px;
+  }
+  
+  #DeliveryForm .condition-text {
+    flex-grow: 1;
+  }
+  
+  #DeliveryForm .condition-icon, .condition-text {
+    font-size: 14px;
+  }
+
+  

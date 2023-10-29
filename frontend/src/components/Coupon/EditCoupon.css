@@ -1,0 +1,77 @@
+/* EditCoupon.css */
+
+#EditCoupon.edit-coupon-container {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px;
+  background: linear-gradient(to bottom, #6b68c9, #0c0759); /* Gradient Background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+#EditCoupon.edit-coupon-container h2 {
+  margin-bottom: 20px;
+  color: #01080c;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInUp 1s ease-in-out;;
+}
+
+#EditCoupon.edit-coupon-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#EditCoupon.edit-coupon-container div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#EditCoupon.edit-coupon-container label {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #050404; /* Vibrant Yellow */
+  font-size: 18px; /* Increased Font Size */
+}
+
+#EditCoupon.edit-coupon-container input[type="text"],
+#EditCoupon .edit-coupon-container input[type="number"],
+#EditCoupon .edit-coupon-container input[type="date"] {
+  width: calc(70% - 10px);
+  padding: 18px; /* Adjusted Padding */
+  margin-bottom: 30px; /* Adjusted Margin */
+  border: 2px solid #ffcc29; /* Vibrant Yellow Border */
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333333;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#EditCoupon.edit-coupon-container input[type="text"]:focus {
+  border-color: #ff3333; /* Vibrant Red on Focus */
+  box-shadow: 0 0 15px rgba(255, 51, 51, 0.4);
+}
+
+#EditCoupon.edit-coupon-container button[type="submit"] {
+  background: #cf0404;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#EditCoupon.edit-coupon-container button[type="submit"]:hover {
+  background: #348f9b;
+  transform: scale(1.05);
+}

@@ -1,0 +1,122 @@
+/* DeliveryTable.css */
+
+/* Container Styles */
+#AllDeliveryPerson .container {
+    margin-top: 20px;
+  }
+  
+  /* Table Styles */
+  #AllDeliveryPerson .table {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Table Header Styles */
+  #AllDeliveryPerson  .table__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #AllDeliveryPerson .table__header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #AllDeliveryPerson  .search-container {
+    width: 300px;
+  }
+  
+  #AllDeliveryPerson  #search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #AllDeliveryPerson  .action-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Button Styles */
+  #AllDeliveryPerson  .btn {
+    margin-left: 10px;
+  }
+  
+  /* Table Body Styles */
+  #AllDeliveryPerson  .table__body {
+    overflow-x: auto;
+  }
+  
+  #AllDeliveryPerson  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #AllDeliveryPerson  table th,
+  #AllDeliveryPerson  table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #AllDeliveryPerson  thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #AllDeliveryPerson tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #AllDeliveryPerson tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Icon Styles */
+  #AllDeliveryPerson .bx {
+    font-size: 20px;
+  }
+  .swal-confirm-button-custom {
+    background: linear-gradient(#e62828, #c96857); /* Green gradient */
+    color: #fff; /* White text */
+    font-size: 18px; /* Custom font size */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+  }
+  
+  .swal-confirm-button-custom:hover {
+    background: linear-gradient(#9b654c, #eb4921); /* Darker green gradient on hover */
+  }
+  
+  .swal-cancel-button-custom {
+    background: linear-gradient(#70d648, #378f1c); /* Red gradient */
+    color: #fff; /* White text */
+    font-size: 18px; /* Custom font size */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+  }
+ .swal-cancel-button-custom:hover {
+    background: linear-gradient(#53c575, #b39b99); /* Darker red gradient on hover */
+  }
+  .swal-confirm-button-custom {
+    /* ... existing styles ... */
+    margin-right: 50px; /* Add margin to the right of the confirm button */
+  }
+  
+  .swal-cancel-button-custom {
+    /* ... existing styles ... */
+    margin-left: 50px; /* Add margin to the left of the cancel button */
+  }
+  

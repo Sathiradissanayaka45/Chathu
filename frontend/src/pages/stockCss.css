@@ -1,0 +1,209 @@
+/* Define a custom style for the toast container */
+.custom-toast-container {
+    background-color: blue; /* Set the background color to blue */
+  }
+  
+  /* Define a custom style for the toast notification itself */
+  .custom-toast {
+    background-color: #6f42c1; /* Set the background color of the toast to white */
+    color: black; /* Set the text color to black */
+    /* Add any other custom styles you need */
+  }
+
+  .fetch-stock-container {
+    padding: 20px;
+  }
+  
+  .fetch-stock-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stock-table th{
+    padding: 14px 18px;
+    text-align: left;
+  
+    font-size: 24px;
+  }
+  .stock-table td {
+    padding: 14px 18px;
+    text-align: left;
+  
+    font-size: 20px;
+  }
+  
+  .stock-table th {
+    background-color: #002651;
+    color: #fff;
+    font-weight: bold;
+  }
+
+ 
+  .stock-table tbody tr:nth-child(even) {
+    background-color: white;
+  }
+  .stock-table tbody tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  
+  .stock-action-button {
+    
+    font-size: 14px;
+    margin-top: 20px;;
+    margin-top: 20px;;
+   
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .stock-action-icon {
+    margin-right: 5px;
+    font-size: 16px;
+    vertical-align: text-bottom;
+  
+  }
+  
+  .stock-action-button-edit-button  {
+    background-color: #ffcc00;
+    color: #fff;
+  }
+  
+  .stock-action-button-edit-button:hover {
+    background-color: #ffcc00;
+  }
+  
+  .delete-button {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff0000;
+  }
+
+  /* Add a hover effect to table rows */
+.stock-table tbody tr:hover {
+  background-color: lightgray; /* Change the background color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Add a border-bottom to table rows for separation */
+.stock-table tbody tr {
+  border-bottom: 1px solid black; /* Add a black border below each row */
+}
+  
+  
+body.Allstock {
+  min-height: 100vh;
+  display:flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  
+}
+
+.lowstocktable{
+
+
+  margin-top: 1000px;
+  margin-right: 100px;
+  margin-left: 80px;
+  margin-bottom: 6px;
+}
+
+
+.stockcontainer {
+  max-width: 700px;
+ 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+  margin-top: 24px;
+  
+}
+
+.custom-input {
+  width: 600px; /* Adjust the width as needed */
+}
+
+.generate-pdf-button {
+  background-color: #710f3f; /* Blue color for the button */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add some border radius for a rounded look */
+  cursor: pointer; /* Change cursor on hover */
+  margin-top: 40px;
+  margin-left: 1460px;
+  margin-bottom: 40px;
+}
+
+.generate-pdf-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.stock-search-bar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.stock-search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 6px;
+  font-size: 16px;
+  
+}
+
+.stock-search-bar input::placeholder {
+  color: black;
+}
+
+.stock-search-bar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.stock-search-bar button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
