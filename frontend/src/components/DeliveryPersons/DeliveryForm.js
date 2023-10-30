@@ -54,6 +54,7 @@ function DeliveryForm() {
     const numberRegex = /\d/;
     const symbolRegex = /[-!$%^&*()_+|~=`{}[\]:";'<>?,./]/;
 
+    //set password validation
     setPasswordValidation({
       lowercase: lowercaseRegex.test(password),
       uppercase: uppercaseRegex.test(password),
