@@ -9,6 +9,7 @@ function DeliveredOrderHistory() {
   const [deliveryPerson, setDeliveryPerson] = useState(null);
   const email = sessionStorage.getItem("userEmail");
 
+  //fetch delivery person details from delivery person table by email
   useEffect(() => {
     axios.get(`http://localhost:8000/deliveryPerson/getByMail/${email}`)
       .then((response) => {
