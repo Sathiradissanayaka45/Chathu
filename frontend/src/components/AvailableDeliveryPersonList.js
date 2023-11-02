@@ -29,6 +29,7 @@ function AvailableDeliveryPersonList({ navigateToOrderList }) {
   const handleAssignDelivery = () => {
     var id = selectedDeliveryPerson;
     if (id) {
+      //update delivery person status when click assign button
       axios.put(`http://localhost:8000/deliveryPerson/update/${id}`, {
         personStatus: "not-availabe",
       })
