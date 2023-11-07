@@ -17,6 +17,7 @@ const TrackOrder = () => {
 
   const fetchOrderDetails = async () => {
     try {
+      //fetch order details
       const response = await axios.get(`http://localhost:8000/allOrder/getOrderByID/${orderId}`);
 
       if (response.status === 200) {
