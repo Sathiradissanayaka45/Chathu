@@ -25,7 +25,7 @@ const TrackOrder = () => {
         setShowPopup(true);
 
         const deliveryPersonId = response.data.DeliveryOrders.deliveryPersonid;
-
+              //fetch delivery person details
         const deliveryPersonResponse = await axios.get(`http://localhost:8000/deliveryPerson/getById/${deliveryPersonId}`);
         const deliveryPersonID = deliveryPersonResponse.data.DeliveryPersons.DeliveryPersonID;
 
