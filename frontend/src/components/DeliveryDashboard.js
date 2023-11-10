@@ -66,7 +66,7 @@ const DeliveryDashboard = () => {
               <Card.Body>
                 <h5>Next Delivery</h5>
                 <p>
-                  Your next delivery is scheduled for tomorrow at 10:00 AM. Make sure to check the
+                  Your next delivery is scheduled for tomorrow at 11:00 AM. Make sure to check the
                   delivery address and contact details before heading out.
                 </p>
               </Card.Body>
