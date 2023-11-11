@@ -8,6 +8,7 @@ function DeliveryPersonPrivate() {
   const [deliveryPerson, setDeliveryPerson] = useState(null);
 
   useEffect(() => {
+    //fetch delivery person details
     axios.get(`http://localhost:8000/deliveryPerson/getByMail/${email}`)
       .then((response) => {
         console.log(response); // Log the entire response
