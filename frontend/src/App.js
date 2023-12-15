@@ -331,7 +331,7 @@ function App() {
             />
             <Route path="/admin/billAssign/:id" element={<BillAssign />} />
             <Route path="/admin/branchSales" element={<BranchSales />} />
-
+            {/* delivery side bar */}
             <Route path="/delivery" element={<DeliveryPersonSideBar />}>
                <Route index element={<DeliveryDashboard />} />
                <Route path="UserProfile" element = {<DeliveryPersonPrivate />} />
