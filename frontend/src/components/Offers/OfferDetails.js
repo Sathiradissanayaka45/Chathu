@@ -9,6 +9,7 @@ function OfferDetails() {
   const [offer, setOffer] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  //fetch offer data
   useEffect(() => {
     axios.get(`http://localhost:8000/offers/getOffer/${offerID}`)
       .then((response) => {
