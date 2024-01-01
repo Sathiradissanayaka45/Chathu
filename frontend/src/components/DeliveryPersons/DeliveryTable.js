@@ -61,6 +61,7 @@ function DeliveryTable() {
     });
   }
 
+  //report generation
   function generateReport() {
     // Create a new jsPDF instance
     const pdfDoc = new jsPDF();
