@@ -52,6 +52,7 @@ function ProfileDetails() {
       });
   }, [deliveryPersonID]);
 
+  //report generation
   function generatePDF() {
     const pdfDoc = new jsPDF();
     const currentDate = new Date();
