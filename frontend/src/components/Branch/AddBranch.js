@@ -24,6 +24,7 @@ function AddBranch() {
     });
   };
 
+  //form validation
   const validateForm = () => {
     const newErrors = {};
 
