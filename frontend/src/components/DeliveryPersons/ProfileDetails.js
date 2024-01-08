@@ -13,6 +13,7 @@ function ProfileDetails() {
   const [deliveryPerson, setDeliveryPerson] = useState(null);
   const [imageUrl, setImageUrl] = useState('');
 
+  
   useEffect(() => {
     // Fetch the profile details of the selected delivery person by ID
     axios.get("http://localhost:8000/deliveryPerson/get/"+deliveryPersonID)
