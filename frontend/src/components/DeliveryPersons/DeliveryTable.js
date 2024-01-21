@@ -6,6 +6,7 @@ import "boxicons/css/boxicons.min.css";
 import Swal from "sweetalert2";
 import jsPDF from "jspdf";
 
+
 function DeliveryTable() {
   const [deliveryPersons, setDeliveryPersons] = useState([]);
   const { id } = useParams();
