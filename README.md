@@ -1,5 +1,7 @@
 # Motorcycle Spare Part Shop Management System
 
+![Home Page](/screenshots/ss_1.jpg)
+
 ## Overview
 
 This project is a collaborative effort designed for a real client in the motorcycle spare parts industry. The system focuses on efficiently managing the delivery process, ensuring a seamless experience for both customers and delivery personnel.
