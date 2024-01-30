@@ -44,7 +44,7 @@ This project is a collaborative effort designed for a real client in the motorcy
 ![Delivery Manager Dashboard](/screenshots/ss 1.jpg)
 *Delivery Manager Dashboard displaying order list and assignment options.*
 
-![Delivery Personnel Interface](/screenshots/delivery_personnel_interface.png)
+![Delivery Personnel Interface](/screenshots/ss_1.jpg)
 *Delivery Personnel Interface with real-time order details and status updates.*
 
 ![Customer Order Tracking](/screenshots/customer_order_tracking.png)
