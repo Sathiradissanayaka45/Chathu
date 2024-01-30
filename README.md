@@ -1,6 +1,6 @@
 # Motorcycle Spare Part Shop Management System
 
-![Home Page](/screenshots/ss_1.jpg)
+![Home Page](/screenshots/ss_2.jpg)
 
 ## Overview
 
