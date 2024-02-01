@@ -27,7 +27,7 @@ This project is a collaborative effort designed for a real client in the motorcy
 
 ### Delivery Personnel Interface
 
-![Delivery Manager Dashboard](/screenshots/ss_15.jpg)
+![Delivery Person Dashboard](/screenshots/ss_15.jpg)
 *Delivery Personnel Interface with real-time order details and status updates.*
 
 - **Login System:**
