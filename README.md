@@ -40,6 +40,9 @@ This project is a collaborative effort designed for a real client in the motorcy
 
 ### Customer Tracking
 
+![Customer Order Tracking](/screenshots/ss_5.jpg)
+*Customer Order Tracking page with order details and delivery person information.*
+
 - **Order Tracking:**
   - Customers receive a tracking ID upon placing an order.
   - Access the tracking order page to enter the ID and view real-time order details, including delivery status and delivery person details.
@@ -51,8 +54,7 @@ This project is a collaborative effort designed for a real client in the motorcy
 ![Delivery Personnel Interface](/screenshots/ss_1.jpg)
 *Delivery Personnel Interface with real-time order details and status updates.*
 
-![Customer Order Tracking](/screenshots/customer_order_tracking.png)
-*Customer Order Tracking page with order details and delivery person information.*
+
 
 ## How to Use
 
