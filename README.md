@@ -58,7 +58,4 @@ This project is a collaborative effort designed for a real client in the motorcy
 - Set up the necessary dependencies (provide specific instructions if needed).
 - Run the application.
 
-## Contributing
-
-If you'd like to contribute to this project, please follow the [contributing guidelines](CONTRIBUTING.md).
 
