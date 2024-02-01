@@ -10,6 +10,8 @@ This project is a collaborative effort designed for a real client in the motorcy
 
 ### Delivery Management
 
+*Delivery Manager Dashboard displaying order list and assignment options.*
+
 - **Order Processing:**
   - Customers can place orders, and upon billing, the order is visible to the delivery manager.
 
