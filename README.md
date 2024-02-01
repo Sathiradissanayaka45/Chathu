@@ -25,7 +25,7 @@ This project is a collaborative effort designed for a real client in the motorcy
 ### Delivery Personnel Interface
 
 ![Delivery Manager Dashboard](/screenshots/ss_15.jpg)
-*Delivery Manager Dashboard displaying order list and assignment options.*
+*Delivery Personnel Interface with real-time order details and status updates.*
 
 - **Login System:**
   - Each delivery person has individual login credentials to access the system.
@@ -52,7 +52,7 @@ This project is a collaborative effort designed for a real client in the motorcy
 
 
 ![Delivery Personnel Interface](/screenshots/ss_1.jpg)
-*Delivery Personnel Interface with real-time order details and status updates.*
+
 
 
 
