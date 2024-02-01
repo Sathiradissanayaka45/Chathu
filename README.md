@@ -4,6 +4,8 @@
 
 ## Overview
 
+![System Dashboard](/screenshots/ss_6.jpg)
+
 This project is a collaborative effort designed for a real client in the motorcycle spare parts industry. The system focuses on efficiently managing the delivery process, ensuring a seamless experience for both customers and delivery personnel.
 
 ## Features
