@@ -10,6 +10,7 @@ This project is a collaborative effort designed for a real client in the motorcy
 
 ### Delivery Management
 
+![Delivery Manager Dashboard](/screenshots/ss_7.jpg)
 *Delivery Manager Dashboard displaying order list and assignment options.*
 
 - **Order Processing:**
