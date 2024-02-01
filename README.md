@@ -66,7 +66,3 @@ This project is a collaborative effort designed for a real client in the motorcy
 
 If you'd like to contribute to this project, please follow the [contributing guidelines](CONTRIBUTING.md).
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
