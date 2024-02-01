@@ -47,15 +47,6 @@ This project is a collaborative effort designed for a real client in the motorcy
   - Customers receive a tracking ID upon placing an order.
   - Access the tracking order page to enter the ID and view real-time order details, including delivery status and delivery person details.
 
-## Screenshots
-
-
-
-![Delivery Personnel Interface](/screenshots/ss_1.jpg)
-
-
-
-
 ## How to Use
 
 - Clone the repository to your local machine.
