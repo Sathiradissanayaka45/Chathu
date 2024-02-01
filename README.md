@@ -61,7 +61,6 @@ This project is a collaborative effort designed for a real client in the motorcy
 - Clone the repository to your local machine.
 - Set up the necessary dependencies (provide specific instructions if needed).
 - Run the application.
-- Access the different interfaces (delivery manager, delivery personnel, and customer) using the provided login credentials.
 
 ## Contributing
 
