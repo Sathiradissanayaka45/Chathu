@@ -7,7 +7,6 @@ import jsPDF from "jspdf";
 import { getDownloadURL, ref } from 'firebase/storage';
 import { storage } from '../firebase';
 
-
 function ProfileDetails() {
   const { deliveryPersonID } = useParams();
   const [deliveryPerson, setDeliveryPerson] = useState(null);
