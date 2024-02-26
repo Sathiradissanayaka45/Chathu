@@ -58,4 +58,8 @@ This project is a collaborative effort designed for a real client in the motorcy
 - Set up the necessary dependencies (provide specific instructions if needed).
 - Run the application.
 
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Sathiradissanayaka45/tour-guide_system.git
 
