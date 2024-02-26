@@ -61,5 +61,5 @@ This project is a collaborative effort designed for a real client in the motorcy
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Sathiradissanayaka45/tour-guide_system.git
+   git clone https://github.com/Sathiradissanayaka45/Chathura_motors.git
 
